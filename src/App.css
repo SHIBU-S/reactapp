@@ -7,32 +7,124 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bodypic{
+  background-image: url(./Bodypic2\ \(1\).jpg);
+  background-position: center;
+}
+.bodydesc,.bodypara{
+  color: #fff !important;
+}
+.bodydesc{
+  /* font-size: calc(1.525rem + 3.3vw); */
+  font-size: 60px;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lists{
+  /* background: var(--light); */
+  background-color: rgb(175, 221, 240);
+}
+.listspic1,.listspic2,.listspic3,.listspic4{
+  height: 50px;
+  width: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.listspic1{
+  background-image: url(./Listpic1.png);
+}
+.listspic2{
+  background-image: url(./Listpic2);
+}
+.listspic3{
+  background-image: url(./Listpic3);
+}
+.listspic4{
+  background-image: url(./Listpic4);
 }
 
-.App-link {
-  color: #61dafb;
+.aboutpagepic{
+  width: 100%;
+  height: 445px;
+  background-image: url(./aboutpagepic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.webdesign_pic{
+  width: 200%;
+  height: 250px;
+  background-image: url(./webdesign_pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.graphicdesign_pic,.videoediting_pic{
+  width: 100%;
+  height: 250px;
+  /* background-image: url(./graphicdesign_pic.jpg); */
+  background-size: contain;
+}
+.graphicdesign_pic{
+  background-image: url(./graphicdesign_pic.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.videoediting_pic{
+  background-image: url(./videoediting_pic.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.onlinemarketing_pic{
+  background-image: url(./onlinemarketing_pic.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.course1,.course2,.course3{
+  width: 100%;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.course1{
+  background-image: url(./course-1.jpg);
+}
+.course2{
+  background-image: url(./course-2.jpg);
+}
+.course3{
+  background-image: url(./course-3.jpg);
+}
+.stars{
+  width: 20%;
+  height: 30px;
+  background-image: url(./fivestars);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.page{
+  position: relative;
+  bottom: 25px;
+  background-color: rgb(175, 221, 240);
+}
+
+.logo1,.logo2,.logo3{
+  width: 20%;
+  height: 90px;
+  background-size: cover;
+}
+.logo1{
+  background-image: url(./testimonial-1.jpg);
+}
+.logo2{
+  background-image: url(./testimonial-2.jpg);
+}
+.logo3{
+  background-image: url(./testimonial-3.jpg);
+}
+
+.footer{
+  background-color: #181d38 !important;
 }
