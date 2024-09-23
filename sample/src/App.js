@@ -4,6 +4,7 @@ import Car from './Sample';
 import Displayprops from './Displayprops';
 import Header from './Sample2';
 import Mobile from './Mobile';
+import Hooksconcept from './Hooksconcept';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Displayprops color="Black"/>
       <Header/>
       <Mobile/>
+      <Hooksconcept/>
     </div>
   );
 }
