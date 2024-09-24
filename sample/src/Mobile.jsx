@@ -6,7 +6,7 @@ function Mobile(){
 
     return(
         <>
-            <button onClick={displaymobiledetails}>Click me</button>
+            <button onClick={displaymobiledetails}>Click me</button>  <br /> <br />
         </>
     )
 }

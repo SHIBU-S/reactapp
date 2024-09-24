@@ -91,7 +91,7 @@ function Hooksconcept(){
             </div>
                 <button type="button" onClick={changemystyle1} style={{backgroundColor:"black",padding:"10px",color:"white"}}>Black</button>
                 <button type="button" onClick={changemystyle2} style={{backgroundColor:"green",padding:"10px",color:"white"}}>Green</button>
-                <button type="button" onClick={changemystyle3} style={{backgroundColor:"red",padding:"10px",color:"white"}}>Red</button>
+                <button type="button" onClick={changemystyle3} style={{backgroundColor:"red",padding:"10px",color:"white"}}>Red</button> <br />
         </>
     )
 }

@@ -5,6 +5,7 @@ import Displayprops from './Displayprops';
 import Header from './Sample2';
 import Mobile from './Mobile';
 import Hooksconcept from './Hooksconcept';
+import Task from './Task';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Mobile/>
       <Hooksconcept/>
+      <Task/>
     </div>
   );
 }
