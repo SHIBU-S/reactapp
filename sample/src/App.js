@@ -8,6 +8,7 @@ import Hooksconcept from './Hooksconcept';
 import Task from './Task';
 import Effect from './Useeffect';
 import Memo from './Usememo';
+import Component2 from './Component2';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Task/>
       <Effect/>
       <Memo/>
+      <Component2/>
     </div>
   );
 }
