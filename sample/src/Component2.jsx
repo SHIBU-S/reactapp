@@ -18,7 +18,7 @@ function Component2()
     const [username,setusername] = useState("");
     const [password,setpassword] = useState("");
 
-  
+    
     return (
       <UserContext.Provider value={{user,age,color,bgcolor,setbgcolor ,username,setusername,password,setpassword}}>
         <h1 style={{backgroundColor : "skyblue" , padding : "5px",color:"red"}}>UseContext (Hooks)</h1>
@@ -39,7 +39,6 @@ function Component2()
           padding : "5px"
         });
     }
-
 }
 
 export default Component2;
