@@ -76,7 +76,7 @@ function Hooksconcept(){
 
     return(
         <>
-            <h2>HOOKS Concept</h2>
+            <h1>HOOKS Concept</h1>
             <p style={mystyle}>Thalapathy Vijay's {cinema.year} film is {cinema.movie}. </p>
                 <button type="button" onClick={update2023}>2023 film</button>
                 <button type="button" onClick={() =>  setupdatecinema(

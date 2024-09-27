@@ -8,12 +8,12 @@ function Effect()
     useEffect(
         ()=>{
                 setcalc(()=>calc*10);
-            }
+            },[count]
     );
 
     return(
         <>
-            <h2>useEffect(Hooks)</h2>
+            <h1 style={{backgroundColor : "skyblue" , padding : "5px",color:"red"}}>useEffect(Hooks)</h1>
             <h3>Counting Values using UseEffect</h3>
                 <button onClick={()=> setcount(count+1)}>+</button>
             <p>Count list : {count}  Calculation list : {calc}</p>

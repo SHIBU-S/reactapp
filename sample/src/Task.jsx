@@ -167,7 +167,7 @@ function Task()
 
     return(
         <>
-        <h3 style={{backgroundColor : "skyblue" , padding : "5px"}}>REACTJS Hooks(UseState) FORM VALIDATION</h3>
+        <h1 style={{backgroundColor : "skyblue" , padding : "5px",color:"red"}}>REACTJS Hooks(UseState) FORM VALIDATION</h1>
             Enter a name :
                 <input type="text" style={color} onChange={change}></input>         <br />
             Enter a email :
