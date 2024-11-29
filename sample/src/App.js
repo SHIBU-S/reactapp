@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Car from './Sample';
 import Displayprops from './Displayprops';
-import Header from './Sample2';
+// import Header from './Sample2';
 import Mobile from './Mobile';
 import Hooksconcept from './Hooksconcept';
 import Task from './Task';
@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Car/>
       <Displayprops color="Black"/>
-      <Header/>
+      {/* <Header/> */}
       <Mobile/>
       <Hooksconcept/>
       <Task/>

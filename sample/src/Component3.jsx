@@ -15,8 +15,8 @@ function Component3()
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, eveniet mollitia earum quisquam beatae dolore? Quos sint delectus autem aspernatur!</p>
               </div>
           </div>
-          <button onClick={changedark} style={{backgroundColor:"black",color:"white"}}>Dark Color</button>    
-          <button onClick={changelight} style={{backgroundColor:"skyblue",color:"black"}}>Light Color</button>
+          <button onClick={changedark} style={{backgroundColor:"black",color:"white",padding:"5px"}}>Dark Color</button>    
+          <button onClick={changelight} style={{backgroundColor:"skyblue",color:"black",padding:"5px"}}>Light Color</button>
 
         <div>
             Enter Name : <input type="text" onChange={(name)=>setusername(name.target.value)}/>   <br />
